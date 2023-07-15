@@ -1,0 +1,45 @@
+
+.crosshair_card {
+  padding: 10px 15px;
+  position: relative;
+  @apply my-8 lg:my-0;
+  background: rgba(255, 255, 255, 0.112);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.112), rgb(0, 0, 0, 0.1));
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba( 255, 255, 255, 0.08 );
+  
+}
+
+.crosshair_card {
+  @apply h-auto w-auto;
+  .card_body {
+    @apply relative z-10;
+
+    img {
+      @apply w-full;
+    }
+
+
+    .card_content {
+      @apply p-4;
+
+      .event_name {
+        @apply text-primary font-bold uppercase  mb-4 tracking-wide relative overflow-hidden;
+
+        div {
+          @apply text-xl sm:text-3xl;
+        }
+      }
+
+      h1 {
+        @apply text-gray-400;
+        font-size: 10px;
+      }
+
+      h2 {
+        @apply text-gray-500 font-secondary;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.about-bg {
+    background-image: url('../public/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply flex justify-start py-12 text-white relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, #000 30%, transparent);
+    }
+
+    & > * {
+      @apply relative z-10;
+    }
+
+  }

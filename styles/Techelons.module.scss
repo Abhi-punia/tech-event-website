@@ -1,0 +1,20 @@
+.wrapper-container {
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+  background: rgba(255, 255, 255, 0.112);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.03),
+    rgb(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.event_description {
+  @apply text-white leading-7 font-primary hidden;
+
+  p {
+    @apply my-4;
+  }
+}
