@@ -28,7 +28,7 @@
     "csv-string": "^4.1.1",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
-    "firebase": "^9.17.2",
+    "firebase": "^8.6.8",
     "formik": "^2.2.9",
     "framer-motion": "^9.1.7",
     "graphql": "^16.6.0",
@@ -58,7 +58,7 @@
     "typescript": "4.9.5",
     "usehooks-ts": "^2.9.1",
     "uuid": "^9.0.0",
-    "vercel": "^28.16.15",
+    "vercel": "^24.2.4",
     "yup": "^1.0.2"
   },
   "devDependencies": {
